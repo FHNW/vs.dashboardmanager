@@ -1,6 +1,11 @@
 Changelog
 =========
 
+0.3.5 (2015-06-06)
+------------------
+- Moved to github [veit]
+- Plone 4.3 compatibility [veit] 
+
 0.3.4 (2011-03-30)
 ------------------
 - documentation update
