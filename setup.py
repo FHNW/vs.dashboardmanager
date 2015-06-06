@@ -6,8 +6,8 @@ version = '0.3.4'
 setup(name='vs.dashboardmanager',
       version=version,
       description="An extended Dashboard manager based on collective.portletpage",
-      long_description=open("README.txt").read() + "\n" +
-                       open(os.path.join("docs", "HISTORY.txt")).read(),
+      long_description=open("README.rst").read() + "\n" +
+                       open(os.path.join("docs", "HISTORY.rst")).read(),
       # Get more strings from
       # http://pypi.python.org/pypi?%3Aaction=list_classifiers
       classifiers=[
