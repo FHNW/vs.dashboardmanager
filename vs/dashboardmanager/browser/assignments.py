@@ -5,9 +5,11 @@
 ################################################################
 
 import operator 
-
 from zope.component import getUtility, getMultiAdapter
-from zope.app.container.interfaces import INameChooser
+try:
+    from zope.app.container.interfaces import INameChooser # Plone < 4.3
+except ImportError:
+    from zope.container.interfaces import INameChooser # Plone >= 4.3
 from Products.CMFCore.utils import getToolByName
 from Products.CMFCore.interfaces import ISiteRoot
 from Products.Five.browser import BrowserView
